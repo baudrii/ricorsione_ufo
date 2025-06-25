@@ -7,6 +7,7 @@ from model.sighting import Sighting
 
 
 class Model:
+    #prova 1
     def __init__(self):
         self._grafo = nx.DiGraph()
         self._nodes = []
