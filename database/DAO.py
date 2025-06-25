@@ -9,6 +9,7 @@ class DAO():
 
     @staticmethod
     def get_all_states():
+        #oiiiii
         cnx = DBConnect.get_connection()
         result = []
         if cnx is None:
